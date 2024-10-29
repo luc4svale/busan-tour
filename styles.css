@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   /*background colors*/
   --backgrond-default: #F5F4F0;
@@ -17,7 +22,64 @@
   --text-tertiary: #696969;
   --text-headline: #E1624F;
 
-  /*font properties*/
+  /*font weights*/
+  --regular: 400;
+  --bold: 700;
+
+  /*font default properties*/
   font-family: "Open Sans", sans-serif;
   color: var(--text-secondary);
 }
+
+body {
+  background-color: var(--backgrond-default);
+}
+
+main {
+  margin: 88px auto 65px;
+  width: 1120px;
+}
+
+.headline {
+  text-transform: uppercase;
+  color: var(--text-headline);
+  font-weight: var(--bold);
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 8px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+figure {
+  width: 100%;
+  padding: 4px 0;
+  margin: 40px 0;
+  box-sizing: border-box;
+}
+
+figure img {
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
+  border-radius: 28px;
+  margin-bottom: 24px;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+
