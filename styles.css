@@ -129,6 +129,27 @@ h3 {
 }
 
 
+#final-message {
+  margin-top: 40px;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+#final-message p {
+  text-align: center;
+}
+
+footer { 
+  font-family: "Alice", serif;
+  font-weight: var(--regular);
+  margin: 65px auto 48px;
+  text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
 section + section {
   border-top: 1px solid var(--border-primary);
 }
