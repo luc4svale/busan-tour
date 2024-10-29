@@ -51,14 +51,6 @@ h1 {
   margin-top: 8px;
 }
 
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 28px;
-}
-
 figure {
   width: 100%;
   padding: 4px 0;
@@ -78,6 +70,73 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+
+h2 {
+  font-size: 32px;
+  margin: 2px 0 8px;
+}
+
+#tourist-sites-list-title {
+  margin: 64px 0 64px;
+}
+
+#tourist-sites-list-content {
+  list-style: none;
+}
+
+.card + .card {
+  margin-top: 48px;
+}
+
+.card-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  padding-left: 8px;
+  margin-bottom: 4px;
+}
+
+.recomended-to-list {
+  list-style: disc;
+  padding-left: 18px;
+}
+
+.recomended-to-list li {
+  font-weight: var(--bold);
+}
+
+.recomended-to-list li.blue {
+  color: var(--accent-blue);
+}
+
+.recomended-to-list li.pink {
+  color: var(--accent-pink);
+}
+
+.recomended-to-list li.orange {
+  color: var(--accent-orange);
+}
+.recomended-to-list li::marker {
+  content: '・';
+  color: var(--text-secondary);
+  font-size: 1.1em;
+}
+
+
+section + section {
+  border-top: 1px solid var(--border-primary);
+}
+
+h1, h2, h3 {
+  color: var(--text-primary);
+}
+
 
 
 
